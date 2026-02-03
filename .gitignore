@@ -1,0 +1,6 @@
+pycache/
+*.pyc
+.DS_Store
+outputs/
+figures/
+wandb/
