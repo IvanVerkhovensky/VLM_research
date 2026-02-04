@@ -1,0 +1,13 @@
+{
+  "model_id": "HuggingFaceVLA/smolvla_libero",
+  "dataset_id": "eunyoung927/smol-libero-v30",
+  "perturb": "brightness",
+  "n_requested": 120,
+  "n_used": 120,
+  "n_skipped_no_images": 0,
+  "n_skipped_bad_image": 0,
+  "device": "mps",
+  "metric": "L2(action_orig - action_perturbed)",
+  "mean_dist": 0.043315131323955335,
+  "median_dist": 0.018457324244081974
+}

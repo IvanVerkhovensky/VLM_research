@@ -1,0 +1,12 @@
+{
+  "model_id": "HuggingFaceVLA/smolvla_libero",
+  "dataset_id": "eunyoung927/smol-libero-v30",
+  "n_requested": 120,
+  "n_used": 120,
+  "device": "mps",
+  "metric": "L2(action_orig - action_variant)",
+  "mean_dist_repeat": 0.0,
+  "mean_dist_empty": 0.7860255014151335,
+  "mean_dist_shuffle": 0.850642608354489,
+  "pool_size": 8
+}
