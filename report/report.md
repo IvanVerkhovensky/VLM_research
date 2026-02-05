@@ -83,9 +83,9 @@ SmolVLA использует action chunking/внутренние очереди
 figures/language_sensitivity.png
 figures/ood_sensitivity.png
 JSON:
-
 outputs/language_seed*.json
 outputs/ood__seed.json
+
 5.1 Язык (120 фреймов, seed=0)
 repeat drift: 0.0
 mean drift (empty instruction): ~0.779
