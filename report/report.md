@@ -92,8 +92,12 @@ mean drift (empty instruction): ~0.779
 mean drift (counterfactual/shuffle): ~0.704
 (Смысл такой - язык влияет на предсказания измеримо, при этом протокол детерминирован, то есть это не шум.)
 
-5.2 OOD JSON и график
+5.2 OOD (120 фреймов и seed = 0)
 Визуальные perturbations (яркость/шум/окклюзия) дают измеримый action drift. Это прокси метрика не success-rate, но она хорошо показывает наличие сигнала неустойивого к OOD.
+mean drift:
+- brightness: 0.029
+- gaussian noise: 0.158
+- occlusion: 0.119
 
 6) Что бы я делал дальше развивая эту идею
 Success-rate eval в симуляции (LIBERO или аналог) + controlled perturbations, чтобы связать action drift с реальным успехом/провалом задач.
