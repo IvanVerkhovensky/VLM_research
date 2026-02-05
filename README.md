@@ -4,6 +4,7 @@
  зависит от текста инструкции и насколько хрупкая к небольшим визуальным сдвигам .
 
 Модель: HuggingFaceVLA/smolvla_libero
+
 Датасет (LeRobot v3.0): eunyoung927/smol-libero-v30
 Железо: MacBook (Apple MPS)
 
