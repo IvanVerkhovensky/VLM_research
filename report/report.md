@@ -98,6 +98,7 @@ mean drift:
 - brightness: 0.029
 - gaussian noise: 0.158
 - occlusion: 0.119
+То есть шум и окклюзия дают больший drift чем изменение яркости и это вполне ожидаемо
 
 6) Что бы я делал дальше развивая эту идею
 Success-rate eval в симуляции (LIBERO или аналог) + controlled perturbations, чтобы связать action drift с реальным успехом/провалом задач.
