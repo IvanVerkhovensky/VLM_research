@@ -10,7 +10,7 @@
 ## Что здесь есть
 
 - src/audit_smolvla/audit_language.py — чувствительность к языку: оригинальная инструкция vs пустая vs контрфактуальная
-- src/audit_smolvla/audit_ood_multi.py — OOD по картинке (один запуск → brightness / noise / occlusion)
+- src/audit_smolvla/audit_ood_multi.py — OOD по картинке один запуск - brightness / noise / occlusion
 - src/audit_smolvla/plot_results.py — строит графики из JSON
 - outputs/ — результаты в JSON
 - figures/ — готовые графики для отчёта
@@ -19,12 +19,12 @@
 ## Деталь про методику
 
 SmolVLA использует action chunking/внутренние очереди: повторные вызовы select_action() могут возвращать разные действия даже на одном и том же входе.  
-Чтобы измерять именно эффект изменения входа (язык/картинка), я:
+Чтобы измерять именно эффект изменения входа - язык и картинка я:
 
 - сбрасываю состояние политики перед каждым предсказанием
 - фиксирую seed на фрейм, чтобы сравнения были детерминированными
 
-(Проверка: в language‑аудите mean_dist_repeat ≈ 0.)
+Проверка -  в language‑аудите mean_dist_repeat ≈ 0.
 ## Графики
 ![](figures/language_sensitivity.png)
 ![](figures/ood_sensitivity.png)
