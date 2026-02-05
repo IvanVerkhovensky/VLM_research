@@ -3,9 +3,10 @@
 Я сделал небольшой, но воспроизводимый аудит публичной VLA‑политики для манипуляции: насколько она  
  зависит от текста инструкции и насколько хрупкая к небольшим визуальным сдвигам .
 
-Модель: HuggingFaceVLA/smolvla_libero  https://huggingface.co/HuggingFaceVLA/smolvla_libero
-Датасет (LeRobot v3.0): eunyoung927/smol-libero-v30  https://huggingface.co/datasets/eunyoung927/smol-libero-v30
-
+Модель: HuggingFaceVLA/smolvla_libero
+https://huggingface.co/HuggingFaceVLA/smolvla_libero
+Датасет (LeRobot v3.0): eunyoung927/smol-libero-v30
+https://huggingface.co/datasets/eunyoung927/smol-libero-v30
 Железо: MacBook (Apple MPS)
 
 ## Что здесь есть
