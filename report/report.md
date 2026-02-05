@@ -9,11 +9,11 @@
 
 Я выбирал так чтобы показать VLA как класс моделей, масштабирование и перенос, смесь embodiment и открытые пайплайны.
 
-- RT-2 (2023) — пример VLA в современном смысле -  перенос vision-language представлений, включая web-knowledge в робот управление. Нужен для ориентации по семантической генерализации и постановке задач.
-- Open X-Embodiment / RT-X (2024) — большой шаг к embodiment-agnostic - единый формат данных и обучение на смеси роботов. Хорошо показывает что многие проблемы лежат в данных и распределениях и несовпадении observation/action spaces.
-- Octo (2024) — открытая generalist policy, полезна как  baseline и как пример практической адаптации к новым сенсорам.
-- OpenVLA (2024) — открытая VLA-модель и инженерные оценки и дообучения, снижает проблемы воспроизводимости.
-- SmolVLA + LeRobot (2025) — компактная VLA-политика и tooling которые запускаются на consumer hardware в моём случае  MacBook.
+- RT-2 (2023) — пример VLA в современном смысле -  перенос vision-language представлений, включая web-knowledge в робот управление. Нужен для ориентации по семантической генерализации и постановке задач. https://arxiv.org/abs/2307.15818
+- Open X-Embodiment / RT-X (2024) — большой шаг к embodiment-agnostic - единый формат данных и обучение на смеси роботов. Хорошо показывает что многие проблемы лежат в данных и распределениях и несовпадении observation/action spaces. https://arxiv.org/abs/2310.08864
+- Octo (2024) — открытая generalist policy, полезна как  baseline и как пример практической адаптации к новым сенсорам. https://arxiv.org/abs/2405.12213
+- OpenVLA (2024) — открытая VLA-модель и инженерные оценки и дообучения, снижает проблемы воспроизводимости. https://arxiv.org/abs/2406.09246
+- SmolVLA + LeRobot (2025) — компактная VLA-политика и tooling которые запускаются на consumer hardware в моём случае  MacBook.  https://huggingface.co/blog/smolvla
 
 ---
 
@@ -42,10 +42,10 @@
 
 ---
 
-## 4) воспроизведение/измерения
+## 4) воспроизведение и измерения
 
-Модель: HuggingFaceVLA/smolvla_libero  
-Датасет (LeRobot v3.0): eunyoung927/smol-libero-v30  
+Модель: HuggingFaceVLA/smolvla_libero  https://huggingface.co/blog/smolvla / https://huggingface.co/HuggingFaceVLA/smolvla_libero
+Датасет (LeRobot v3.0): eunyoung927/smol-libero-v30  https://huggingface.co/datasets/eunyoung927/smol-libero-v30
 Железо: MacBook, Apple MPS
 
 Я сделал два офлайн-аудита:
